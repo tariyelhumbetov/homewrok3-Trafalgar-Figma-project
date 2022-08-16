@@ -1,0 +1,89 @@
+.container {
+    margin: 0 25px;
+}
+
+.headerdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.logo {
+    height: 41px;
+}
+
+.headernav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headernav ul li {
+    margin-right: 43px;
+    text-decoration: none;
+
+}
+
+.headernav ul li a {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1534;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.headernav ul :first-child a {
+    font-weight: 700;
+    opacity: 1;
+}
+
+.firstcontent {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+h1 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    width: 75%;
+    margin-bottom: 25px;
+}
+
+.mainp {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+    width: 75%;
+    margin-bottom: 45px;
+}
+.button1{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 60px;
+color: #FFFFFF;
+background: #458FF6;
+border-radius: 55px;
+border: none;
+width: 30%;
+}
+
+.firstcontent>div {
+    width: 50%;
+}
+
+.illustration {
+    width: 100%;
+}
