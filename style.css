@@ -40,6 +40,7 @@
     opacity: 1;
 }
 
+
 .firstcontent {
     display: flex;
     align-items: center;
@@ -57,7 +58,7 @@ h1 {
     margin-bottom: 25px;
 }
 
-.mainp {
+.firstp {
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 300;
@@ -67,17 +68,18 @@ h1 {
     width: 75%;
     margin-bottom: 45px;
 }
-.button1{
+
+.button1 {
     font-family: 'Mulish';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 60px;
-color: #FFFFFF;
-background: #458FF6;
-border-radius: 55px;
-border: none;
-width: 30%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+    background: #458FF6;
+    border-radius: 55px;
+    border: none;
+    width: 30%;
 }
 
 .firstcontent>div {
@@ -86,4 +88,450 @@ width: 30%;
 
 .illustration {
     width: 100%;
+}
+
+.secondcontent {
+    margin: 191px auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+h2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.line {
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    border-radius: 5px;
+
+}
+
+.secondcontent .line {
+    margin-top: 56px;
+    margin-bottom: 33px;
+}
+
+.mainp {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.secondcontent .mainp {
+    text-align: center;
+}
+
+.secondcontent p {
+    width: 80%;
+    margin-bottom: 80px;
+}
+
+.firstcardscontent {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+    position: relative;
+
+
+}
+
+.cards1 {
+    box-sizing: border-box;
+    width: 31%;
+    height: 350px;
+    padding-top: 55px;
+    padding-left: 38px;
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    position: relative;
+
+}
+
+h4 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    color: #000000;
+
+}
+
+.cards1 h4 {
+    margin-top: 22px;
+}
+
+.cardsp {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+
+}
+
+.element {
+    position: absolute;
+    top: 34%;
+    right: -39px;
+}
+
+.button2 {
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458FF6;
+    background-color: #FFFFFF;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    width: 200px;
+}
+
+.firstcardscontent button {
+    margin-top: 72px;
+}
+
+.thirdcontent {
+    margin-top: 222px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: flex;
+
+}
+
+.thirdcontent>div {
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.thirdcontent .line {
+    margin-top: 26px;
+    margin-bottom: 32px;
+}
+
+.thirdcontent button {
+    margin-top: 37px;
+}
+
+.adddiv {
+    margin-top: 21px;
+    margin-bottom: 78px;
+
+
+}
+
+.adddiv .element2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: -20px;
+}
+
+.forthcontent {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 222px;
+    display: flex;
+
+}
+
+h3 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #000000;
+
+}
+
+.forthcontent h3 {
+    margin-top: 30px;
+    width: 50%;
+}
+
+.forthcontent .line {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.forthcontent p {
+    margin-bottom: 40px;
+}
+
+.forthcontent .button2 {
+    text-align: center;
+}
+
+.fifthcontent {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.customer {
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+}
+
+.fifthcontent h3 {
+    margin-top: 64px;
+    color: #FFFFFF;
+}
+
+.fifthcontent .line {
+    margin-top: 25px;
+    margin-bottom: 70px;
+    background: #FFFFFF;
+}
+
+.edward {
+    width: 85%;
+    margin-bottom: 83px;
+    display: flex;
+    align-items: center;
+
+}
+
+.person {
+    width: 38%;
+    margin-left: 33px;
+}
+
+.name {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.title {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.edward p {
+    width: 48%;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.element3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sixthcontent {
+    box-sizing: border-box;
+    margin: 270px auto 200px auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sixthcontent .line {
+    margin-top: 26px;
+}
+
+.articles {
+    box-sizing: border-box;
+    width: 90%;
+    margin: 72px auto;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 35px;
+}
+
+.article {
+    box-sizing: border-box;
+    width: 33%;
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+
+.articleimg {
+    width: 100%;
+}
+
+h5 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    color: #000000;
+    margin-left: 33px;
+    width: 80%;
+    margin-top: 21px;
+    margin-bottom: 12px;
+
+}
+
+.article p {
+    margin-left: 33px;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.readmore {
+    margin-left: 33px;
+    margin-bottom: 35px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: #4089ED;
+}
+
+footer {
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    box-sizing: border-box;
+    padding-top: 133px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    box-sizing: border-box;
+}
+
+.box2 div a,
+.box3 div a,
+.box4 div a {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 8px;
+    text-decoration: none;
+
+}
+
+h6 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    color: #FFFFFF;
+
+}
+
+.box1 {
+    width: 25%;
+    margin-left: 12%;
+}
+
+.footerlogo {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.imgt {
+    position: absolute;
+    margin-left: 12px;
+}
+
+.box1 p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 45px;
+}
+
+.box1 :nth-child(3) {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.box2 {
+    margin-left: 8%;
+
+}
+
+.box3 {
+    width: 8%;
+    margin-left: 11%;
+
+}
+
+.box4 {
+    margin-left: 8%;
+
+}
+
+.footerelement {
+    width: 100%;
+}
+.icon{
+    margin-left: 5px;
 }
